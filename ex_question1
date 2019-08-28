@@ -1,0 +1,103 @@
+1. Write a program to solve a classic ancient Chinese puzzle: 
+We count 35 heads and 94 legs among the chickens and rabbits in a farm. 
+How many rabbits and how many chickens do we have?
+​
+Hint:
+Use for loop to iterate all possible solutions.
+​
+​
+2. Please write a program which prints all permutations of [1,2,3]
+​
+​
+Hints:
+Use itertools.permutations() to get permutations of list.
+​
+​
+3. Please write a program which accepts a string from console and print the characters that have even indexes.
+​
+Example:
+If the following string is given as input to the program:
+​
+H1e2l3l4o5w6o7r8l9d
+​
+Then, the output of the program should be:
+​
+Helloworld
+​
+Hints:
+Use list[::2] to iterate a list by step 2.
+​
+​
+4. Please write a program which accepts a string from console and print it in reverse order.
+​
+Example:
+If the following string is given as input to the program:
+​
+rise to vote sir
+​
+Then, the output of the program should be:
+​
+ris etov ot esir
+​
+​
+5. Please write a program which count and print the numbers of each character in a string input by console.
+​
+Example:
+If the following string is given as input to the program:
+​
+abcdefgabc
+​
+Then, the output of the program should be:
+​
+a,2
+c,2
+b,2
+e,1
+d,1
+g,1
+f,1
+​
+Hints:
+Use dict to store key/value pairs.
+Use dict.get() method to lookup a key with default value
+​
+​
+6. With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
+​
+Hints:
+Use set() to store a number of values without duplicate.
+​
+​
+7. By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
+​
+Hints:
+Use list's remove method to delete a value.
+​
+8.By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
+​
+Hints:
+Use list comprehension to delete a bunch of element from a list.
+Use enumerate() to get (index, value) tuple.
+​
+9.By using list comprehension, please write a program generate a 3*5*8 3D array whose each element is 0.
+​
+​
+10. By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
+​
+Hints:
+Use list comprehension to delete a bunch of element from a list.
+​
+------
+11. 
+​
+Question:
+Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.
+Note: i=0,1.., X-1; j=0,1,¡­Y-1.
+Example
+Suppose the following inputs are given to the program:
+3,5
+Then, the output of the program should be:
+[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
+​
+Hints:
+Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.

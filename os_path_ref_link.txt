@@ -1,0 +1,16 @@
+'''
+https://www.geeksforgeeks.org/os-path-module-python/
+​
+https://realpython.com/working-with-files-in-python/
+'''
+
+
+sqlite3:
+
+https://pypi.org/project/db-sqlite3/
+
+https://stackabuse.com/a-sqlite-tutorial-with-python/
+
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+​
+https://www.mongodb.com/blog/post/getting-started-with-python-and-mongodb
